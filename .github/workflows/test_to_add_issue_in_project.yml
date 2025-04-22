@@ -20,8 +20,8 @@ jobs:
           # Идентификатор проекта
           PROJECT_ID=5
           # Получите идентификатор репозитория
-          REPO_OWNER=<OWNER_OF_THE_REPO>
-          REPO_NAME=<NAME_OF_THE_REPO>
+          REPO_OWNER=phpshka
+          REPO_NAME=test
 
           # Создайте новое issue
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
